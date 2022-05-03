@@ -5,7 +5,7 @@ void main()
 {
   char site[]="explorer https:\\";
   char url[90];
-  printf("Enter the url");
+  printf("Enter the url : ");
   gets(url);
   strcat(site,url);
   while(1){
